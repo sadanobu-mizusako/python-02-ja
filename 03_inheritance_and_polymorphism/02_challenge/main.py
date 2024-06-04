@@ -9,7 +9,7 @@ class Accout(ABC):
         self.__interest = interest_rate
 
     def __str__(self):
-        return f"The account_number is {self.account_number}, the amount is {self.balance}"
+        return f"The account number is {self.account_number}, the balance is {self.balance}"
 
     @abstractmethod
     def can_withdraw(self, amount):
